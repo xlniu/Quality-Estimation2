@@ -12,7 +12,7 @@ python3;
 1、准备数据，下载17年wmt sentence level的数据，将数据放置在 ./examples/QE 文件夹下，数据文件示例见QE文件夹;<br>
 2、下载bert预训练模型，放到 ./pretrain-models 文件夹并解压，这里用到的预训练模型是：BERT-Base, Multilingual Cased (New, recommended): 104 languages, 12-layer, 768-hidden, 12-heads, 110M parameters，<br>
 可以到这里下载：https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased.tar.gz ;<br>
-2、运行run_qe.sh进行fine-tuning;<br>
+3、运行run_qe.sh进行fine-tuning;<br>
 
 ## 实验结果
 |Data|Pearson’s|
