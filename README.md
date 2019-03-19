@@ -15,7 +15,7 @@ python3;
 3、运行run_qe.sh进行fine-tuning;<br>
 
 ## 实验结果
-本人使用pytorch版本的bert进行fine-tuning，但是实验结果很不好，en_de_pearson只能到0.3，训练过程的loss曲线一直震荡，**到目前为止还没有找到原因（求大佬解答）**。下面表格中的实验结果是用朋友的代码（基于tensorflow版本的bert）跑出的结果，供大家参考。
+本人使用pytorch版本的bert进行fine-tuning，但是实验结果很不好，en_de_pearson只能到0.3，训练过程的loss曲线一直震荡(图1)，**到目前为止还没有找到原因（求大佬解答）**。下面表格中的实验结果是用朋友的代码（基于tensorflow版本的bert）跑出的结果，供大家参考。
 
 |Data|Pearson’s|MAE|RMSE|Spearman’s|
 |:---|:---|:---|:---|:---|
@@ -26,4 +26,5 @@ python3;
 
 注：state of the art 参考论文：[“Bilingual Expert” Can Find Translation Errors](https://arxiv.org/pdf/1807.09433.pdf) ;<br>
 
-![基于pytorch-bert进行fine-tuning的loss输出](https://github.com/xlniu/Quality-Estimation2/blob/master/pretrain-models/loss.png)
+<img src="https://github.com/xlniu/Quality-Estimation2/blob/master/pretrain-models/loss.png" width="450" height="288" />
+图1 基于pytorch-bert进行fine-tuning的loss输出
