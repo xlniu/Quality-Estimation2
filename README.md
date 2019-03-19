@@ -27,4 +27,4 @@ python3;
 注：state of the art 参考论文：[“Bilingual Expert” Can Find Translation Errors](https://arxiv.org/pdf/1807.09433.pdf) ;<br>
 <br>
 <img src="https://github.com/xlniu/Quality-Estimation2/blob/master/pretrain-models/loss.png" width="450" height="288" /> <br>
-** **  图1 基于pytorch-bert进行fine-tuning的loss输出
+图1 基于pytorch-bert进行fine-tuning的loss输出
