@@ -25,6 +25,6 @@ python3;
 |state of the art(Single)|0.7099|0.0927|0.1394|0.6424|
 
 注：state of the art 参考论文：[“Bilingual Expert” Can Find Translation Errors](https://arxiv.org/pdf/1807.09433.pdf) ;<br>
-
+<br>
 <img src="https://github.com/xlniu/Quality-Estimation2/blob/master/pretrain-models/loss.png" width="450" height="288" />
 图1 基于pytorch-bert进行fine-tuning的loss输出
